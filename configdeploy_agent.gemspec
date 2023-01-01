@@ -34,6 +34,21 @@ Gem::Specification.new do |spec|
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
 
+  spec.add_dependency('gli', '~> 2.5')
+  spec.add_dependency('json_pure', '~> 1.6')
+  spec.add_dependency('archive-tar-minitar', '~> 0.5.2')
+  spec.add_dependency('rubyzip', '~> 1.3.0')
+  spec.add_dependency('logging', '~> 1.8')
+  spec.add_dependency('aws-sdk-core', '~> 3')
+  spec.add_dependency('aws-sdk-code-generator', '~> 0.2.2.pre')
+  spec.add_dependency('aws-sdk-s3', '~> 1')
+  spec.add_dependency('simple_pid', '~> 0.2.1')
+  spec.add_dependency('docopt', '~> 0.5.0')
+  spec.add_dependency('concurrent-ruby', '~> 1.1.9')
+
+  spec.add_development_dependency('rake', '~> 12.3.3')
+  spec.add_development_dependency('rspec', '~> 3.2.0')
+
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
