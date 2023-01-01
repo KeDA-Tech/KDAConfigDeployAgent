@@ -5,8 +5,8 @@ require_relative "lib/configdeploy_agent/version"
 Gem::Specification.new do |spec|
   spec.name = "configdeploy_agent"
   spec.version = ConfigdeployAgent::VERSION
-  spec.authors = ["Reno Septa Pradana"]
-  spec.email = ["reno@keda-tech.com"]
+  spec.authors = ["KeDA Tech"]
+  spec.email = ["developer@keda-tech.com"]
 
   spec.summary = "TODO: Write a short summary, because RubyGems requires one."
   spec.description = "TODO: Write a longer description or delete this line."
